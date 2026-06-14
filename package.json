@@ -1,0 +1,41 @@
+{
+  "name": "netgsm-iys-sdk",
+  "version": "0.1.0",
+  "description": "Dependency-free TypeScript client for the NetGSM İYS (İleti Yönetim Sistemi) consent API — add and query electronic-message consents.",
+  "keywords": [
+    "netgsm",
+    "iys",
+    "ileti-yonetim-sistemi",
+    "sms",
+    "consent",
+    "kvkk",
+    "typescript",
+    "turkey"
+  ],
+  "author": "MECoban",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MECoban/netgsm-iys-sdk.git"
+  },
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^20.19.43"
+  }
+}
