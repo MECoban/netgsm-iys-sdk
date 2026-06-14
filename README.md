@@ -116,8 +116,29 @@ try {
 
 ## Notlar
 
-- Bu, NetGSM'in resmî paketi **değildir**; bağımsız, açık kaynak bir istemcidir.
 - `source` değerleri ve enum listesi İYS mevzuatına göre güncellenebilir; resmî [NetGSM İYS dokümanına](https://www.netgsm.com.tr/sms/ileti-yonetim-sistemi-iys) bakınız.
+
+## Sorumluluk reddi (Disclaimer)
+
+Bu, **bağımsız ve gayriresmî** (unofficial) bir açık kaynak istemci kütüphanesidir.
+**NetGSM** ile, **İYS A.Ş.** (TOBB / İleti Yönetim Sistemi) ile ya da herhangi bir
+resmî kurumla **bağlantılı, onaylı veya yetkili değildir.** "İYS" ve "NetGSM"
+isimleri yalnızca hangi servise bağlandığını tanımlamak için (tanımlayıcı kullanım)
+geçmektedir; herhangi bir resmî onay veya iş ortaklığı ima edilmez.
+
+## Yasal kullanım
+
+- Bu kütüphane yalnızca bir **istemcidir**: veri toplamaz, telemetri içermez, hiçbir
+  veriyi dışarı göndermez ve barındırılan (hosted) bir hizmet sunmaz. Tüm çağrılar
+  sizin kendi sunucunuzdan, kendi NetGSM/İYS bilgilerinizle yapılır.
+- İYS'ye hizmet sağlayıcı kaydı, geçerli **rıza/izin** alınması, KVKK ve 6563 sayılı
+  Kanun ile ilgili mevzuata uyum, ve NetGSM/İYS API kullanım şartlarına uygunluk
+  tamamen **kütüphaneyi kullanan işletmenin sorumluluğundadır.**
+- Hukuka uygun rıza olmadan izin kaydı yapmayın. Örneklerde ve testlerde **gerçek
+  kişisel veri kullanmayın**; API bilgilerinizi (kullanıcı adı/şifre/token) gizli tutun.
+
+> Bu metin hukuki danışmanlık değildir. Kesinlik için İYS destek
+> (destek@iys.org.tr) veya hukuk müşaviriyle teyit ediniz.
 
 ## Lisans
 
